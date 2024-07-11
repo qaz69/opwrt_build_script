@@ -108,6 +108,9 @@ sed -i 's/syslog/none/g' feeds/packages/admin/netdata/files/netdata.conf
 # OpenAI
 git clone https://$github/sbwml/luci-app-openai package/new/openai
 
+# Ddns-go
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+
 # qBittorrent
 git clone https://$github/sbwml/luci-app-qbittorrent package/new/qbittorrent
 
